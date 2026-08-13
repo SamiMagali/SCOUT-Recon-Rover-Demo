@@ -74,3 +74,8 @@ Possible future versions could include:
 
 **SCOUT Recon Rover**  
 Built, designed and tested by Sami Magali.
+
+
+
+
+Third-party components: The track design and sonar head/mount were sourced from Thingiverse and incorporated into the SCOUT prototype. These components are not original SCOUT designs; attribution and original licences are retained where applicable.
