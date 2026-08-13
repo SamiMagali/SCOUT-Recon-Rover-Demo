@@ -1,0 +1,4 @@
+Arduino Sonar -  Motorized Support by condruttoma on Thingiverse: https://www.thingiverse.com/thing:3940115
+
+Summary:
+I wanted to go for this DIY project for a while now, but first I had to come up with my ownsensor support.You will find the code and instructions here:https://howtomechatronics.com/projects/arduino-radar-project/You will also need to download the Processing DE:https://processing.org/download/Personally I changed the color scheme and text and added some pictures, the codeis pretty straight-forward.Printing-wise only the base needs patience post-processing, using a support overhang of 60% is sufficient and makes access easier.If you want to attach the module to a project, don't hesitate to contact me, I will gladly modify the base to suit your needs.Also, if I there is something I can design for you, you can always drop me a line on fiverr:https://www.fiverr.com/share/pdgm9Nhttps://youtu.be/hPe_DYjW-Wg
