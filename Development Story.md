@@ -14,7 +14,7 @@ The tracks were a different story. We ran into a problem because some of the par
 
 In the end, I didn't get a completely working rover, but I did get the **sonar, radar system and software working**, while also designing and building the mechanical parts of SCOUT.
 
-This was a **solo entry**, and it was also my first time working with many of the machines, materials and processes used during the Maker Challenge. I spent **13+ hours working on SCOUT in person**, designing, building, testing and iterating on the prototype.
+This was a **solo entry**, and it was also my first time working with many of the machines, materials and processes used during the Maker Challenge. I spent **72+ hours working on SCOUT in person**, designing, building, testing and iterating on the prototype.
 
 I also used **AI as a development tool** during the project, particularly for helping me understand unfamiliar programming concepts, troubleshoot problems and explore possible solutions. However, AI was a tool to support my work rather than replace it. I was still responsible for the project concept, design decisions, hardware assembly, CAD, testing, troubleshooting and implementation.
 
