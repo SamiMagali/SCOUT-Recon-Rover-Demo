@@ -22,11 +22,9 @@ Rather than trying to hide what didn't work, I wanted to document it as part of 
 
 ### 🎮 Continuing the Project
 
-Although the Maker Challenge ended, I decided that I didn't want SCOUT to end there.
+I decided that I didn't want SCOUT to end there.
 
-I began developing a **separate interactive demo game based around SCOUT**, allowing people to experience the concept digitally rather than simply looking at the physical prototype. This became a way for me to continue experimenting with the software and ideas behind SCOUT after the Maker Challenge.
-
-The game is therefore **not part of the original Maker Challenge prototype**. It is a continuation of the project that I developed afterwards.
+I began developing a **separate interactive demo game based around SCOUT**, allowing people to experience the concept digitally rather than simply looking at the physical prototype. This became a way for me to continue experimenting with the software and ideas behind SCOUT to upgrade my Maker Challenge submission.
 
 The biggest thing I learnt from the Maker Challenge was that a project doesn't have to be completely finished to be successful. When I realised I didn't have enough time to build everything, I changed the scope and focused on getting one part — the sonar system — working properly.
 
