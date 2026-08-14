@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>SCOUT: Recon Run</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ===================================== -->
+    <!-- START MENU                            -->
+    <!-- ===================================== -->
+
+    <div id="start-menu">
+
+        <div class="start-content">
+
+            <div class="game-title">
+                SCOUT
+            </div>
+
+            <div class="game-subtitle">
+                RECON RUN
+            </div>
+
+            <div class="demo-text">
+                DEMO GAME
+            </div>
+
+            <div class="creator">
+                by Sami Magali
+            </div>
+
+
+            <div class="rules">
+
+                <div class="rules-title">
+                    MISSION RULES
+                </div>
+
+                <div class="rule">
+                    • Explore the building
+                </div>
+
+                <div class="rule">
+                    • Use your sonar to navigate
+                </div>
+
+                <div class="rule">
+                    • Avoid the landmines
+                </div>
+
+            </div>
+
+
+            <button id="play-button">
+                PRESS PLAY
+            </button>
+
+
+            <div class="music-credit">
+                Music: Electrodoodle — Kevin MacLeod
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ===================================== -->
+    <!-- MISSION FAILED SCREEN                 -->
+    <!-- ===================================== -->
+
+    <div id="failed-screen">
+
+        <div class="failed-content">
+
+            <div class="failed-title">
+                FAILED!
+            </div>
+
+            <div class="failed-subtitle">
+                SCOUT HAS BEEN DISABLED
+            </div>
+
+            <button id="failed-menu-button">
+                RETURN TO MENU
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ===================================== -->
+    <!-- GAME CONTAINER                        -->
+    <!-- ===================================== -->
+
+    <div id="game-container">
+
+
+        <!-- ===================================== -->
+        <!-- MAIN GAME                             -->
+        <!-- ===================================== -->
+
+        <canvas id="game"></canvas>
+
+
+        <!-- ===================================== -->
+        <!-- SONAR BUTTON                          -->
+        <!-- ===================================== -->
+
+        <button id="sonar-toggle">
+            OPEN SONAR
+        </button>
+
+
+        <!-- ===================================== -->
+        <!-- SONAR PANEL                           -->
+        <!-- ===================================== -->
+
+        <div id="sonar-panel">
+
+            <h2>
+                SCOUT SONAR RECON
+            </h2>
+
+            <canvas
+                id="sonar"
+                width="320"
+                height="220">
+            </canvas>
+
+            <div class="sonar-info">
+
+                ANGLE:
+                <span id="sonar-angle">
+                    0
+                </span>°
+
+                <br>
+
+                DISTANCE:
+                <span id="sonar-distance">
+                    -
+                </span>
+                cm
+
+                <br>
+
+                STATUS:
+                <span id="sonar-status">
+                    SCANNING
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ===================================== -->
+        <!-- MAP BUTTON                            -->
+        <!-- ===================================== -->
+
+        <button id="map-toggle">
+            OPEN MAP
+        </button>
+
+
+        <!-- ===================================== -->
+        <!-- MAP PANEL                             -->
+        <!-- ===================================== -->
+
+        <div id="map-panel">
+
+            <h2>
+                SCOUT MAP
+            </h2>
+
+            <canvas
+                id="map-display"
+                width="360"
+                height="220">
+            </canvas>
+
+        </div>
+
+
+        <!-- ===================================== -->
+        <!-- MOBILE CONTROLS                       -->
+        <!-- ===================================== -->
+
+        <div id="mobile-controls">
+
+            <!-- LEFT / TURN LEFT -->
+
+            <button
+                id="mobile-left"
+                class="mobile-control"
+                aria-label="Turn left">
+                ◀
+            </button>
+
+
+            <!-- FORWARD -->
+
+            <button
+                id="mobile-up"
+                class="mobile-control"
+                aria-label="Move forward">
+                ▲
+            </button>
+
+
+            <!-- BACKWARD -->
+
+            <button
+                id="mobile-down"
+                class="mobile-control"
+                aria-label="Move backward">
+                ▼
+            </button>
+
+
+            <!-- RIGHT / TURN RIGHT -->
+
+            <button
+                id="mobile-right"
+                class="mobile-control"
+                aria-label="Turn right">
+                ▶
+            </button>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- ===================================== -->
+    <!-- SCOUT SYSTEMS                         -->
+    <!-- ===================================== -->
+
+    <!-- Map / walls -->
+    <script src="map.js"></script>
+
+    <!-- Rover movement + drawing -->
+    <script src="scout.js"></script>
+
+    <!-- Mobile controls -->
+    <script src="mobile-controls.js"></script>
+
+    <!-- Sonar + radar GUI -->
+    <script src="sonar.js"></script>
+
+    <!-- Buzzer sounds -->
+    <script src="buzzer.js"></script>
+
+    <!-- Hazards system -->
+    <script src="hazards.js"></script>
+
+    <!-- Mini-map GUI -->
+    <script src="map-gui.js"></script>
+
+    <!-- Characters / mission -->
+    <script src="characters.js"></script>
+
+    <!-- Fog of war -->
+    <script src="fog.js"></script>
+
+    <!-- Background music -->
+    <script src="music.js"></script>
+
+    <!-- Main game controller -->
+    <script src="game.js"></script>
+
+
+</body>
+
+</html>
